@@ -13,3 +13,16 @@ The branches are structured to correspond to the videos in the course. The namin
 Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `master` branch holds the final state of the code when in the course.
 
 The github link for the original course repo is [here](https://github.com/LinkedInLearning/learning-django-2825501)
+
+## Project Steps
+1. To create a django project navigate to the project folder in the terminal window and enter:
+    $ django-admin startproject <project_name>
+
+2. To run the project, navigate to the created django project folder and type in the terminal:
+    $ python manage.py runserver
+
+3. After running project, can view the webpage by navigating to a browser and typing `localhost:8000`
+
+4. To create an app, in the django project folder:
+    $ pythob manage.py startapp <app_name>
+
