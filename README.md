@@ -13,3 +13,4 @@ The branches are structured to correspond to the videos in the course. The namin
 Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `master` branch holds the final state of the code when in the course.
 
 The github link for the original course repo is [here](https://github.com/LinkedInLearning/learning-django-2825501)
+
