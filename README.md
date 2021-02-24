@@ -28,12 +28,17 @@ The github link for the original course repo is [here](https://github.com/Linked
 
 5. After creating app need to add it to the project. within the project folder open settings.py and scroll down to **INSTALLED_APPS** and add the app name
 
-6. In the app folder, add model information to *models.py*
+6. In the app folder, add model information to __*models.py*__
 
 7. Add the migrations, in CLI type
     `$ python manage.py makemigrations`
 To show migrations, type
-    `$ python manage.py showmigrations
+    `$ python manage.py showmigrations`
 
 8. To apply migrations,
-    `$ python manage.py migrate
+    `$ python manage.py migrate`
+
+9. Was outside the scope of the course to go create a management script/command file, so just copied a pre-created one into the app folder. The CSV data to be import was added to the project folder
+
+10. Data imported to the project by running:
+    `$ python manage <command_file_name>
