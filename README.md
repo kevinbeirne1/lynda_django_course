@@ -24,8 +24,16 @@ The github link for the original course repo is [here](https://github.com/Linked
 3. After running project, can view the webpage by navigating to a browser and typing `localhost:8000`
 
 4. To create an app, in the django project folder:
-    `$ pythob manage.py startapp <app_name>`
+    `$ python manage.py startapp <app_name>`
 
-5. Do something else
+5. After creating app need to add it to the project. within the project folder open settings.py and scroll down to **INSTALLED_APPS** and add the app name
 
-6. did something different
+6. In the app folder, add model information to *models.py*
+
+7. Add the migrations, in CLI type
+    `$ python manage.py makemigrations`
+To show migrations, type
+    `$ python manage.py showmigrations
+
+8. To apply migrations,
+    `$ python manage.py migrate
