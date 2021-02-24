@@ -27,3 +27,5 @@ The github link for the original course repo is [here](https://github.com/Linked
     `$ pythob manage.py startapp <app_name>`
 
 5. Do something else
+
+6. did something different
