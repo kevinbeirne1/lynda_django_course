@@ -14,4 +14,4 @@ Some branches will have a beginning and an end state. These are marked with the 
 
 The github link for the original course repo is [here](https://github.com/LinkedInLearning/learning-django-2825501)
 
-The project_steps.md file has lightly detailed description of the steps involve in the course for quick reference on future projects
+The [project_steps.md file](https://github.com/kevinbeirne1/lynda_django_course/blob/main/project_steps.md) has lightly detailed description of the steps involve in the course for quick reference on future projects
