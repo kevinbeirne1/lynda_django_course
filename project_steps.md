@@ -107,3 +107,25 @@ class MyModelAdmin(admin.ModelAdmin):
 /adoptions/1/
 
 ``` 
+
+19. Course provided a base.html for a template. To use in the base.html file add a `{% block content %}` tag. Then in the template that is inheriting, list the extended class on the first line and place a content tag around the template information.
+```
+<!-- in base.html -->
+<h1>
+    ...
+    	...
+            {% block content %}
+            {% endblock %}
+</h1>
+
+
+<!-- in sub-template -->
+{% extends 'base.html' %}
+{% block content %}
+<div class=something>
+    ...
+</div>
+{% endblock %}
+```
+
+20. To add static objects (eg images, files) add `{% load static tag %}` to the first line of the html template
