@@ -40,7 +40,7 @@ class MyModelAdmin(admin.ModelAdmin):
 ```
 
 12. Create a superuser. In project folder in cli type the following, and follow the prompts. (tutorial password was - learningdjango). When running in BASH precede with `winpty` to successfully run the command:
-`$ python manage.py createsuperuser` 
+    `$ python manage.py createsuperuser` 
 
 13. Respectively defined *\_\_str\_\_* and _list\_display_ in **models.py** and **admin.py**, 
 
